@@ -3,10 +3,10 @@
   version: 2.0.1
   state: present
 
-- role: geerlinguy.mysql
+- role: geerlingguy.mysql
   version: 2.5.1
   state: present
 
-- role: geerlinguy.php
+- role: geerlingguy.php
   version: 3.4.4
   state: present

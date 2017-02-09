@@ -4,10 +4,11 @@ Icinga2 Ansible deploy that includes shared-roles for Apache, MySQL, and PHP
 
 ## Getting Started
 
-I need to write instructions for setting up the proper ansible and virtualenv configuration
-for a vagrant cluster.
+1. mkvirtualenv icinga2
 
-But first, I need to put the code together for the deploy! :D
+2. pip install -r requirements.txt
+
+3. ansible-galaxy install -r requirements.yml -p shared-roles -f
 
 ## Vagrant Deploy
 

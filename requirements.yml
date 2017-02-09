@@ -1,0 +1,12 @@
+---
+- role: geerlingguy.apache
+  version: 2.0.1
+  state: present
+
+- role: geerlinguy.mysql
+  version: 2.5.1
+  state: present
+
+- role: geerlinguy.php
+  version: 3.4.4
+  state: present
